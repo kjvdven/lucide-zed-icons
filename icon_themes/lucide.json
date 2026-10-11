@@ -307,6 +307,18 @@
         "coffeescript": {
           "path": "./icons/dark/code.svg"
         },
+        "metal": {
+          "path": "./icons/dark/hand-metal.svg"
+        },
+        "nix": {
+          "path": "./icons/dark/snowflake.svg"
+        },
+        "lua": {
+          "path": "./icons/dark/moon.svg"
+        },
+        "haskell": {
+          "path": "./icons/dark/lambda.svg"
+        },
         "default": {
           "path": "./icons/dark/file.svg"
         },
@@ -364,9 +376,6 @@
         "graphql": {
           "path": "./icons/dark/code.svg"
         },
-        "haskell": {
-          "path": "./icons/dark/code.svg"
-        },
         "hcl": {
           "path": "./icons/dark/code.svg"
         },
@@ -382,19 +391,10 @@
         "kotlin": {
           "path": "./icons/dark/code.svg"
         },
-        "lua": {
-          "path": "./icons/dark/code.svg"
-        },
         "luau": {
           "path": "./icons/dark/code.svg"
         },
-        "metal": {
-          "path": "./icons/dark/code.svg"
-        },
         "nim": {
-          "path": "./icons/dark/code.svg"
-        },
-        "nix": {
           "path": "./icons/dark/code.svg"
         },
         "ocaml": {
@@ -835,6 +835,18 @@
         "coffeescript": {
           "path": "./icons/light/code.svg"
         },
+        "metal": {
+          "path": "./icons/light/hand-metal.svg"
+        },
+        "nix": {
+          "path": "./icons/light/snowflake.svg"
+        },
+        "lua": {
+          "path": "./icons/light/moon.svg"
+        },
+        "haskell": {
+          "path": "./icons/light/lambda.svg"
+        },
         "default": {
           "path": "./icons/light/file.svg"
         },
@@ -892,9 +904,6 @@
         "graphql": {
           "path": "./icons/light/code.svg"
         },
-        "haskell": {
-          "path": "./icons/light/code.svg"
-        },
         "hcl": {
           "path": "./icons/light/code.svg"
         },
@@ -910,19 +919,10 @@
         "kotlin": {
           "path": "./icons/light/code.svg"
         },
-        "lua": {
-          "path": "./icons/light/code.svg"
-        },
         "luau": {
           "path": "./icons/light/code.svg"
         },
-        "metal": {
-          "path": "./icons/light/code.svg"
-        },
         "nim": {
-          "path": "./icons/light/code.svg"
-        },
-        "nix": {
           "path": "./icons/light/code.svg"
         },
         "ocaml": {

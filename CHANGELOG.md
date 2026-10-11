@@ -1,5 +1,7 @@
 # Changelog
 
+**0.3.3** – Own icons for Nix (snowflake), Lua (moon) and Haskell (λ) instead of the generic `<>`. Apple Metal shaders (`.metal`) get `hand-metal`, because what else would you give Metal? 🤘
+
 **0.3.2** – Markdown is now a bare `M↓` in the same lettering as JS/TS (the framed version is kept as `custom/markdown-framed.svg`).
 
 **0.3.1** – Icons a bit larger again (padding 2) while keeping the thinner 1.75 stroke.

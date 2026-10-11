@@ -1,6 +1,6 @@
 id = "lucide-icons"
 name = "Lucide Icons"
-version = "0.3.2"
+version = "0.3.3"
 schema_version = 1
 authors = ["Kris van der Ven"]
 description = "File and folder icons built from Lucide (lucide.dev)"

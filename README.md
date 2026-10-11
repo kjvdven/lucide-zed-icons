@@ -10,7 +10,7 @@ Slightly smaller and thinner than pure Lucide, to match Zed's own icons.
 ![File tree in Lucide Dark and Lucide Light](images/preview-tree.png)
 
 ## Design rules
-- **Bare symbol** = a language or the thing itself: `JS`, `TS`, `M↓` (Markdown), `#` (CSS), `{ }` (JSON), elephant (PHP), gem (Ruby), image, font…
+- **Bare symbol** = a language or the thing itself: `JS`, `TS`, `M↓` (Markdown), `#` (CSS), `{ }` (JSON), elephant (PHP), gem (Ruby), devil horns (Metal shaders – \m/), snowflake (Nix), moon (Lua), λ (Haskell), image, font…
 - **File with a corner symbol** = a file that wraps something else: templates (HTML/XML `<>`, Blade `@`, ERB gem).
 - Corner symbols use Lucide's standard corner size (~10×10), so they weigh the same.
 - Every file type Zed knows has a Lucide icon; languages without their own icon fall back to a generic `<>` (`code`), never to Zed's default icons.

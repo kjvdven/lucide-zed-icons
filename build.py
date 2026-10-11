@@ -49,6 +49,7 @@ FILE_ICONS = {
     "settings": "sliders-horizontal", "linter": "list-checks", "formatter": "paintbrush",
     "ci": "workflow", "deploy": "cloud-upload", "helm": "ship-wheel",
     "version": "tag",
+    "metal": "hand-metal", "nix": "snowflake", "lua": "moon", "haskell": "lambda",
     "code": "code",          # generic fallback for programming languages
 }
 
@@ -67,6 +68,7 @@ ZED_KEYS = {
     "prisma": "database", "surrealql": "database",
     "eslint": "linter", "stylelint": "linter", "prettier": "formatter",
     "gitlab": "ci", "heroku": "deploy", "helm": "helm", "coffeescript": "code",
+    "metal": "metal", "nix": "nix", "lua": "lua", "haskell": "haskell",
     "default": "default",
 }
 for _k in ("astro ballerina bicep c cairo code cpp crystal csharp cue dart elixir elm "
