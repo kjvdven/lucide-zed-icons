@@ -113,6 +113,10 @@
         ".java-version": "version",
         ".sdkmanrc": "version",
         "VERSION": "version",
+        "go.mod": "package",
+        "go.work": "package",
+        "go.sum": "lock",
+        "go.work.sum": "lock",
         "README": "readme",
         "README.md": "readme",
         "LICENSE": "license",
@@ -341,6 +345,9 @@
         "haskell": {
           "path": "./icons/dark/lambda.svg"
         },
+        "go": {
+          "path": "./icons/dark/go.svg"
+        },
         "default": {
           "path": "./icons/dark/file.svg"
         },
@@ -390,9 +397,6 @@
           "path": "./icons/dark/code.svg"
         },
         "gleam": {
-          "path": "./icons/dark/code.svg"
-        },
-        "go": {
           "path": "./icons/dark/code.svg"
         },
         "graphql": {
@@ -666,6 +670,10 @@
         ".java-version": "version",
         ".sdkmanrc": "version",
         "VERSION": "version",
+        "go.mod": "package",
+        "go.work": "package",
+        "go.sum": "lock",
+        "go.work.sum": "lock",
         "README": "readme",
         "README.md": "readme",
         "LICENSE": "license",
@@ -894,6 +902,9 @@
         "haskell": {
           "path": "./icons/light/lambda.svg"
         },
+        "go": {
+          "path": "./icons/light/go.svg"
+        },
         "default": {
           "path": "./icons/light/file.svg"
         },
@@ -943,9 +954,6 @@
           "path": "./icons/light/code.svg"
         },
         "gleam": {
-          "path": "./icons/light/code.svg"
-        },
-        "go": {
           "path": "./icons/light/code.svg"
         },
         "graphql": {

@@ -50,7 +50,7 @@ FILE_ICONS = {
     "ci": "workflow", "deploy": "cloud-upload", "helm": "ship-wheel",
     "version": "tag",
     "metal": "hand-metal", "nix": "snowflake", "lua": "moon", "haskell": "lambda",
-    "mise": "chef-hat",
+    "mise": "chef-hat", "go": "custom:go",
     "code": "code",          # generic fallback for programming languages
 }
 
@@ -69,7 +69,7 @@ ZED_KEYS = {
     "prisma": "database", "surrealql": "database",
     "eslint": "linter", "stylelint": "linter", "prettier": "formatter",
     "gitlab": "ci", "heroku": "deploy", "helm": "helm", "coffeescript": "code",
-    "metal": "metal", "nix": "nix", "lua": "lua", "haskell": "haskell",
+    "metal": "metal", "nix": "nix", "lua": "lua", "haskell": "haskell", "go": "go",
     "default": "default",
 }
 for _k in ("astro ballerina bicep c cairo code cpp crystal csharp cue dart elixir elm "
@@ -107,6 +107,7 @@ FILE_STEMS = {
     ".python-version": "version", ".php-version": "version", ".tool-versions": "version",
     ".go-version": "version", ".terraform-version": "version", ".bun-version": "version",
     ".java-version": "version", ".sdkmanrc": "version", "VERSION": "version",
+    "go.mod": "package", "go.work": "package", "go.sum": "lock", "go.work.sum": "lock",
     "README": "readme", "README.md": "readme", "LICENSE": "license", "LICENSE.md": "license",
     "mise.toml": "mise", ".mise.toml": "mise", "mise.local.toml": "mise",
     ".mise.local.toml": "mise", "miserc.toml": "mise", ".miserc.toml": "mise",

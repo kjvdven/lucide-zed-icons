@@ -10,7 +10,7 @@ Slightly smaller and thinner than pure Lucide, to match Zed's own icons.
 ![File tree in Lucide Dark and Lucide Light](images/preview-tree.png)
 
 ## Design rules
-- **Bare symbol** = a language or the thing itself: `JS`, `TS`, `M↓` (Markdown), `#` (CSS), `{ }` (JSON), elephant (PHP), gem (Ruby), devil horns (Metal shaders – \m/), snowflake (Nix), moon (Lua), λ (Haskell), chef's hat (mise – as in *mise en place*), image, font…
+- **Bare symbol** = a language or the thing itself: `JS`, `TS`, `GO`, `M↓` (Markdown), `#` (CSS), `{ }` (JSON), elephant (PHP), gem (Ruby), devil horns (Metal shaders – \m/), snowflake (Nix), moon (Lua), λ (Haskell), chef's hat (mise – as in *mise en place*), image, font…
 - **File with a corner symbol** = a file that wraps something else: templates (HTML/XML `<>`, Blade `@`, ERB gem).
 - Corner symbols use Lucide's standard corner size (~10×10), so they weigh the same.
 - Every file type Zed knows has a Lucide icon; languages without their own icon fall back to a generic `<>` (`code`), never to Zed's default icons.
@@ -48,7 +48,7 @@ Settings at the top of `build.py`:
 | `CHOICES` | Alternatives for Blade, ERB and Markdown (kept in `custom/`) |
 | `FILE_ICONS`, `FILE_SUFFIXES`, `FILE_STEMS`, `NAMED_DIRS`, `ZED_KEYS` | Which icon goes with which file or folder |
 
-Custom icons (JS/TS and M↓ lettering, Blade/ERB/HTML files, the framed Markdown mark as an alternative, open variants of named folders) live in `custom/`.
+Custom icons (JS/TS/GO and M↓ lettering, Blade/ERB/HTML files, the framed Markdown mark as an alternative, open variants of named folders) live in `custom/`.
 
 ### Why fixed colours?
 - Zed renders icon-theme SVGs as images, so they can't inherit the editor theme's colour or react to hover.
