@@ -11,9 +11,16 @@ LUCIDE = sys.argv[1] if len(sys.argv) > 1 else "/tmp/lucide"
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 APPEARANCES = {            # theme name suffix -> (appearance, stroke colour)
-    "Dark": ("dark", "#a9afbc"),
-    "Light": ("light", "#5c6370"),
+    "Dark": ("dark", "#787c99"),
+    "Light": ("light", "#565a6e"),
 }
+
+# Visual weight in Zed. Zed's own icons are 16px with a 1.2px stroke and ~67% fill;
+# Lucide at 16px is a 1.33px stroke with ~83% fill. PADDING adds room around the 24px
+# grid (viewBox -p -p 24+2p 24+2p), which shrinks the icon and its stroke together
+# without touching the geometry. 0 = pure Lucide, 2 = close to Zed's own icons.
+PADDING = 3
+STROKE_WIDTH = "1.75"  # Lucide default is "2"; lower = lighter icons
 
 CHOICES = {                 # icons still to be decided
     "blade": "custom:file-at",     # or "custom:file-at-large", "custom:file-sword", "custom:file-sword-center", "at-sign"
@@ -139,6 +146,10 @@ def main():
             if src not in written:
                 name = src.replace("custom:", "")
                 svg = source_svg(src).replace("currentColor", colour)
+                if PADDING:
+                    p = PADDING
+                    svg = svg.replace('viewBox="0 0 24 24"', f'viewBox="{-p} {-p} {24 + 2 * p} {24 + 2 * p}"')
+                svg = svg.replace('stroke-width="2"', f'stroke-width="{STROKE_WIDTH}"')
                 svg = re.sub(r'\s*class="[^"]*"', "", svg)
                 open(os.path.join(d, name + ".svg"), "w").write(svg)
                 written[src] = f"./icons/{appearance}/{name}.svg"
