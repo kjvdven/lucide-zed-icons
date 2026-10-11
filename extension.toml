@@ -1,0 +1,7 @@
+id = "lucide-icons-lemone"
+name = "Lucide Icons"
+version = "0.2.1"
+schema_version = 1
+authors = ["Lemone"]
+description = "File and folder icons built from Lucide (lucide.dev), in Lucide's 2px stroke style"
+repository = "https://github.com/kjvdven/zed-tokyonight-icons"
