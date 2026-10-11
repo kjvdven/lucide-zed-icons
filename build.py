@@ -50,6 +50,7 @@ FILE_ICONS = {
     "ci": "workflow", "deploy": "cloud-upload", "helm": "ship-wheel",
     "version": "tag",
     "metal": "hand-metal", "nix": "snowflake", "lua": "moon", "haskell": "lambda",
+    "mise": "chef-hat",
     "code": "code",          # generic fallback for programming languages
 }
 
@@ -107,6 +108,8 @@ FILE_STEMS = {
     ".go-version": "version", ".terraform-version": "version", ".bun-version": "version",
     ".java-version": "version", ".sdkmanrc": "version", "VERSION": "version",
     "README": "readme", "README.md": "readme", "LICENSE": "license", "LICENSE.md": "license",
+    "mise.toml": "mise", ".mise.toml": "mise", "mise.local.toml": "mise",
+    ".mise.local.toml": "mise", "miserc.toml": "mise", ".miserc.toml": "mise",
 }
 FOLDERS = {                 # collapsed (Lucide), expanded (custom)
     "code": ("folder-code", "custom:folder-code-open"),
@@ -118,7 +121,8 @@ FOLDERS = {                 # collapsed (Lucide), expanded (custom)
 NAMED_DIRS = {
     "src": "code", "app": "code", "lib": "code", "resources": "code",
     "test": "test", "tests": "test", "spec": "test",
-    "config": "config", ".config": "config",
+    "config": "config", ".config": "config", "mise": "config", ".mise": "config",
+    "mise-tasks": "config", ".mise-tasks": "config",
     "vendor": "vendor", "node_modules": "vendor",
     ".git": "git", ".github": "git",
 }

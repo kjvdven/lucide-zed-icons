@@ -47,6 +47,22 @@
           "collapsed": "./icons/dark/folder-cog.svg",
           "expanded": "./icons/dark/folder-cog-open.svg"
         },
+        "mise": {
+          "collapsed": "./icons/dark/folder-cog.svg",
+          "expanded": "./icons/dark/folder-cog-open.svg"
+        },
+        ".mise": {
+          "collapsed": "./icons/dark/folder-cog.svg",
+          "expanded": "./icons/dark/folder-cog-open.svg"
+        },
+        "mise-tasks": {
+          "collapsed": "./icons/dark/folder-cog.svg",
+          "expanded": "./icons/dark/folder-cog-open.svg"
+        },
+        ".mise-tasks": {
+          "collapsed": "./icons/dark/folder-cog.svg",
+          "expanded": "./icons/dark/folder-cog-open.svg"
+        },
         "vendor": {
           "collapsed": "./icons/dark/folder-archive.svg",
           "expanded": "./icons/dark/folder-archive-open.svg"
@@ -100,7 +116,13 @@
         "README": "readme",
         "README.md": "readme",
         "LICENSE": "license",
-        "LICENSE.md": "license"
+        "LICENSE.md": "license",
+        "mise.toml": "mise",
+        ".mise.toml": "mise",
+        "mise.local.toml": "mise",
+        ".mise.local.toml": "mise",
+        "miserc.toml": "mise",
+        ".miserc.toml": "mise"
       },
       "file_suffixes": {
         "html": "html",
@@ -528,6 +550,9 @@
         },
         "version": {
           "path": "./icons/dark/tag.svg"
+        },
+        "mise": {
+          "path": "./icons/dark/chef-hat.svg"
         }
       }
     },
@@ -572,6 +597,22 @@
           "expanded": "./icons/light/folder-cog-open.svg"
         },
         ".config": {
+          "collapsed": "./icons/light/folder-cog.svg",
+          "expanded": "./icons/light/folder-cog-open.svg"
+        },
+        "mise": {
+          "collapsed": "./icons/light/folder-cog.svg",
+          "expanded": "./icons/light/folder-cog-open.svg"
+        },
+        ".mise": {
+          "collapsed": "./icons/light/folder-cog.svg",
+          "expanded": "./icons/light/folder-cog-open.svg"
+        },
+        "mise-tasks": {
+          "collapsed": "./icons/light/folder-cog.svg",
+          "expanded": "./icons/light/folder-cog-open.svg"
+        },
+        ".mise-tasks": {
           "collapsed": "./icons/light/folder-cog.svg",
           "expanded": "./icons/light/folder-cog-open.svg"
         },
@@ -628,7 +669,13 @@
         "README": "readme",
         "README.md": "readme",
         "LICENSE": "license",
-        "LICENSE.md": "license"
+        "LICENSE.md": "license",
+        "mise.toml": "mise",
+        ".mise.toml": "mise",
+        "mise.local.toml": "mise",
+        ".mise.local.toml": "mise",
+        "miserc.toml": "mise",
+        ".miserc.toml": "mise"
       },
       "file_suffixes": {
         "html": "html",
@@ -1056,6 +1103,9 @@
         },
         "version": {
           "path": "./icons/light/tag.svg"
+        },
+        "mise": {
+          "path": "./icons/light/chef-hat.svg"
         }
       }
     }
