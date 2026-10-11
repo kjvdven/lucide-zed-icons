@@ -5,7 +5,9 @@ A file and folder icon theme for [Zed](https://zed.dev) built from [Lucide](http
 - **Lucide Dark** – icon colour `#787C99`, the same muted colour Zed uses for its own icons in Tokyo Night
 - **Lucide Light** – icon colour `#565A6E`, with Tokyo Night Light's blue undertone
 
-Icons are drawn slightly smaller and thinner than pure Lucide (2 units of padding, stroke 1.75 → about 1px at 16px), so they sit about as quietly in the file tree as Zed's own icons.
+Slightly smaller and thinner than pure Lucide, to match Zed's own icons.
+
+![File tree in Lucide Dark and Lucide Light](images/preview-tree.png)
 
 ## Design rules
 - **Bare symbol** = a language or the thing itself: `JS`, `TS`, `M↓` (Markdown), `#` (CSS), `{ }` (JSON), elephant (PHP), gem (Ruby), image, font…
@@ -13,6 +15,10 @@ Icons are drawn slightly smaller and thinner than pure Lucide (2 units of paddin
 - Corner symbols use Lucide's standard corner size (~10×10), so they weigh the same.
 - Every file type Zed knows has a Lucide icon; languages without their own icon fall back to a generic `<>` (`code`), never to Zed's default icons.
 - Generic symbols only – no brand logos.
+
+## All icons
+
+![Overview of all icons](images/preview-icons.png)
 
 ## Install (dev extension)
 1. Put this folder somewhere permanent – Zed loads a dev extension straight from it.
@@ -45,20 +51,11 @@ Settings at the top of `build.py`:
 Custom icons (JS/TS and M↓ lettering, Blade/ERB/HTML files, the framed Markdown mark as an alternative, open variants of named folders) live in `custom/`.
 
 ### Why fixed colours?
-Zed draws its own built-in icons as a silhouette and fills them with your editor theme's muted text colour. Icons from an icon theme are loaded as images and drawn exactly as they are, because Zed's SVG renderer doesn't support multi-colour SVGs. So an icon theme can't inherit the editor theme's colour (`currentColor` would render black), and icons don't change colour on hover or selection. That's why `build.py` writes a fixed colour into every icon – change it in `APPEARANCES` if you use another editor theme.
+- Zed renders icon-theme SVGs as images, so they can't inherit the editor theme's colour or react to hover.
+- `build.py` bakes in a fixed colour per variant; change it in `APPEARANCES` for other themes.
 
 ## Changelog
-**0.3.2** – Markdown is now a bare `M↓` in the same lettering as JS/TS (the framed version is kept as `custom/markdown-framed.svg`).
-
-**0.3.1** – Icons a bit larger again (padding 2) while keeping the thinner 1.75 stroke.
-
-**0.3.0** – Smaller icons with a thinner stroke (padding 3, stroke 1.75) to match the visual weight of Zed's own icons; colours tuned to Tokyo Night (dark `#787C99`, light `#565A6E`).
-
-**0.2.1** – Version files (`.ruby-version`, `.nvmrc`, `.tool-versions`, …) get a tag; `.keep` shares the git icon with `.gitkeep`.
-
-**0.2.0** – Covers all 92 of Zed's built-in file types (generic `<>` fallback for languages), plus audio, video, log, diff, documents, spreadsheets, archives, backups, notebooks and tooling config (linters, formatters, CI, deploy, Helm).
-
-**0.1.0** – New start of the old Tokyo Night Icons idea: strict Lucide geometry, templates as files, named folders with open variants, JS/TS lettering.
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## Credits
 Icons © Lucide contributors (ISC; portions MIT via Feather) – see LICENSE. `elephant-face` comes from Lucide Lab.
