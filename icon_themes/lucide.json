@@ -1,7 +1,7 @@
 {
   "$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
   "name": "Lucide Icons",
-  "author": "Lemone",
+  "author": "Kris van der Ven",
   "themes": [
     {
       "name": "Lucide Dark",

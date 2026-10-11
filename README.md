@@ -58,3 +58,5 @@ Zed draws its own built-in icons as a silhouette and fills them with your editor
 
 ## Credits
 Icons © Lucide contributors (ISC; portions MIT via Feather) – see LICENSE. `elephant-face` comes from Lucide Lab.
+
+This is an unofficial community project, not affiliated with or endorsed by Lucide.

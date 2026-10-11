@@ -171,7 +171,7 @@ def main():
         themes.append(theme)
     os.makedirs(os.path.join(HERE, "icon_themes"), exist_ok=True)
     json.dump({"$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
-               "name": "Lucide Icons", "author": "Lemone", "themes": themes},
+               "name": "Lucide Icons", "author": "Kris van der Ven", "themes": themes},
               open(os.path.join(HERE, "icon_themes", "lucide.json"), "w"), indent=2)
     # sanity: every referenced key exists
     for m in (FILE_SUFFIXES, FILE_STEMS):
