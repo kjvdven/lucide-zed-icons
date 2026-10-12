@@ -1,5 +1,7 @@
 # Changelog
 
+**0.3.6** – Slightly bolder icons (padding 1.5, stroke 1.875) so they stay readable on lower-DPI screens.
+
 **0.3.5** – Go gets `GO` lettering in the same style as JS/TS; `go.mod`/`go.work` use the package icon, `go.sum` the lock icon.
 
 **0.3.4** – mise config files (`mise.toml`, `.mise.toml`, `mise.local.toml`, `miserc.toml`, …) get a chef's hat, as in *mise en place*; `mise`, `.mise` and `mise-tasks` folders use the config folder.
