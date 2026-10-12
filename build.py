@@ -19,8 +19,8 @@ APPEARANCES = {            # theme name suffix -> (appearance, stroke colour)
 # Lucide at 16px is a 1.33px stroke with ~83% fill. PADDING adds room around the 24px
 # grid (viewBox -p -p 24+2p 24+2p), which shrinks the icon and its stroke together
 # without touching the geometry. 0 = pure Lucide, 2 = close to Zed's own icons.
-PADDING = 2
-STROKE_WIDTH = "1.75"  # Lucide default is "2"; lower = lighter icons
+PADDING = 1.5
+STROKE_WIDTH = "1.875"  # Lucide default is "2"; lower = lighter icons
 
 CHOICES = {                 # icons still to be decided
     "blade": "custom:file-at",     # or "custom:file-at-large", "custom:file-sword", "custom:file-sword-center", "at-sign"
