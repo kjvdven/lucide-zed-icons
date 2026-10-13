@@ -1,5 +1,7 @@
 # Changelog
 
+**0.4.0** – One icon theme per Tokyo Night variant: Lucide Night, Storm, Moon and Light, each in its own colour. **Breaking:** *Lucide Dark* is now *Lucide Night* – update `icon_theme` in your settings.
+
 **0.3.6** – Slightly bolder icons (padding 1.5, stroke 1.875) so they stay readable on lower-DPI screens.
 
 **0.3.5** – Go gets `GO` lettering in the same style as JS/TS; `go.mod`/`go.work` use the package icon, `go.sum` the lock icon.

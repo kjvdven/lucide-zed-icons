@@ -1,13 +1,15 @@
 # Lucide Icons for Zed
 
-A file and folder icon theme for [Zed](https://zed.dev) built from [Lucide](https://lucide.dev): round caps, Lucide's 24×24 grid, and spacing that matches the official set. Two variants, tuned for [Tokyo Night](https://github.com/folke/tokyonight.nvim):
+A file and folder icon theme for [Zed](https://zed.dev) built from [Lucide](https://lucide.dev): round caps, Lucide's 24×24 grid, and spacing that matches the official set. One variant per [Tokyo Night](https://github.com/folke/tokyonight.nvim) theme:
 
-- **Lucide Dark** – icon colour `#787C99`, the same muted colour Zed uses for its own icons in Tokyo Night
-- **Lucide Light** – icon colour `#565A6E`, with Tokyo Night Light's blue undertone
+- **Lucide Night** – icon colour `#737AA2`, Tokyo Night's blue-grey
+- **Lucide Storm** – icon colour `#7982A9`, Storm's own muted text colour
+- **Lucide Moon** – icon colour `#636DA6`, Moon's purple-leaning comment colour
+- **Lucide Light** – icon colour `#4C505E`, the colour Tokyo Night Light uses for Zed's own icons
 
 Slightly smaller and thinner than pure Lucide, to match Zed's own icons.
 
-![File tree in Lucide Dark and Lucide Light](images/preview-tree.png)
+![File tree in Lucide Night and Lucide Light](images/preview-tree.png)
 
 ## Design rules
 - **Bare symbol** = a language or the thing itself: `JS`, `TS`, `GO`, `M↓` (Markdown), `#` (CSS), `{ }` (JSON), elephant (PHP), gem (Ruby), devil horns (Metal shaders – \m/), snowflake (Nix), moon (Lua), λ (Haskell), chef's hat (mise – as in *mise en place*), image, font…
@@ -23,11 +25,11 @@ Slightly smaller and thinner than pure Lucide, to match Zed's own icons.
 ## Install (dev extension)
 1. Put this folder somewhere permanent – Zed loads a dev extension straight from it.
 2. Command palette → `zed: install dev extension` → choose this folder (the one containing `extension.toml`).
-3. Command palette → `icon theme selector: toggle` → pick *Lucide Dark* or *Lucide Light*.
+3. Command palette → `icon theme selector: toggle` → pick the variant that matches your theme.
 
 Follow your system appearance in `settings.json`:
 ```json
-"icon_theme": { "mode": "system", "light": "Lucide Light", "dark": "Lucide Dark" }
+"icon_theme": { "mode": "system", "light": "Lucide Light", "dark": "Lucide Night" }
 ```
 
 ## Change or extend
