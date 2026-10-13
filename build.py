@@ -10,9 +10,11 @@ import json, os, re, sys, shutil
 LUCIDE = sys.argv[1] if len(sys.argv) > 1 else "/tmp/lucide"
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-APPEARANCES = {            # theme name suffix -> (appearance, stroke colour)
-    "Dark": ("dark", "#787c99"),
-    "Light": ("light", "#565a6e"),
+APPEARANCES = {            # theme name suffix -> (appearance, stroke colour), one per Tokyo Night variant
+    "Night": ("dark", "#737aa2"),
+    "Storm": ("dark", "#7982a9"),
+    "Moon": ("dark", "#636da6"),
+    "Light": ("light", "#4c505e"),
 }
 
 # Visual weight in Zed. Zed's own icons are 16px with a 1.2px stroke and ~67% fill;
@@ -145,7 +147,8 @@ def main():
     shutil.rmtree(out_icons, ignore_errors=True)
     themes = []
     for suffix, (appearance, colour) in APPEARANCES.items():
-        d = os.path.join(out_icons, appearance)
+        variant = suffix.lower()
+        d = os.path.join(out_icons, variant)
         os.makedirs(d)
         written = {}
 
@@ -159,7 +162,7 @@ def main():
                 svg = svg.replace('stroke-width="2"', f'stroke-width="{STROKE_WIDTH}"')
                 svg = re.sub(r'\s*class="[^"]*"', "", svg)
                 open(os.path.join(d, name + ".svg"), "w").write(svg)
-                written[src] = f"./icons/{appearance}/{name}.svg"
+                written[src] = f"./icons/{variant}/{name}.svg"
             return written[src]
 
         theme = {
@@ -186,7 +189,7 @@ def main():
         assert not missing, missing
         missing = set(ZED_KEYS.values()) - set(FILE_ICONS)
         assert not missing, missing
-    print(f"built {len(themes)} themes, {len(os.listdir(os.path.join(out_icons, 'dark')))} icons each")
+    print(f"built {len(themes)} themes, {len(os.listdir(os.path.join(out_icons, 'night')))} icons each")
 
 
 if __name__ == "__main__":
