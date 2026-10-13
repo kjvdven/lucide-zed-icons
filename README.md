@@ -9,7 +9,7 @@ A file and folder icon theme for [Zed](https://zed.dev) built from [Lucide](http
 
 Slightly smaller and thinner than pure Lucide, to match Zed's own icons.
 
-![File tree in Lucide Night and Lucide Light](images/preview-tree.png)
+![File tree in Lucide Night, Storm, Moon and Light](images/preview-tree.png)
 
 ## Design rules
 - **Bare symbol** = a language or the thing itself: `JS`, `TS`, `GO`, `M↓` (Markdown), `#` (CSS), `{ }` (JSON), elephant (PHP), gem (Ruby), devil horns (Metal shaders – \m/), snowflake (Nix), moon (Lua), λ (Haskell), chef's hat (mise – as in *mise en place*), image, font…
@@ -17,10 +17,6 @@ Slightly smaller and thinner than pure Lucide, to match Zed's own icons.
 - Corner symbols use Lucide's standard corner size (~10×10), so they weigh the same.
 - Every file type Zed knows has a Lucide icon; languages without their own icon fall back to a generic `<>` (`code`), never to Zed's default icons.
 - Generic symbols only – no brand logos.
-
-## All icons
-
-![Overview of all icons](images/preview-icons.png)
 
 ## Install (dev extension)
 1. Put this folder somewhere permanent – Zed loads a dev extension straight from it.
