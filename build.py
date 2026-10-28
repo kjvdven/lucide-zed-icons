@@ -46,13 +46,15 @@ FILE_ICONS = {
     # general file types (from the old Tokyo Night set)
     "audio": "file-music", "video": "film", "log": "scroll-text", "diff": "diff",
     "document": "file-text", "spreadsheet": "sheet", "archive": "file-archive",
-    "backup": "archive-restore", "storage": "database", "notebook": "notebook-pen",
+    "backup": "archive-arrow-down", "storage": "database", "notebook": "notebook-pen",
     # tooling & project files
     "settings": "sliders-horizontal", "linter": "list-checks", "formatter": "paintbrush",
     "ci": "workflow", "deploy": "cloud-upload", "helm": "ship-wheel",
     "version": "tag",
     "metal": "hand-metal", "nix": "snowflake", "lua": "moon", "haskell": "lambda",
     "mise": "chef-hat", "go": "custom:go",
+    "certificate": "certificate", "ai": "cpu-ai", "database-config": "database-cog",
+    "graphql": "graph-hub",
     "code": "code",          # generic fallback for programming languages
 }
 
@@ -72,6 +74,7 @@ ZED_KEYS = {
     "eslint": "linter", "stylelint": "linter", "prettier": "formatter",
     "gitlab": "ci", "heroku": "deploy", "helm": "helm", "coffeescript": "code",
     "metal": "metal", "nix": "nix", "lua": "lua", "haskell": "haskell", "go": "go",
+    "graphql": "graphql",
     "default": "default",
 }
 for _k in ("astro ballerina bicep c cairo code cpp crystal csharp cue dart elixir elm "
@@ -98,6 +101,8 @@ FILE_SUFFIXES = {
     "ods": "spreadsheet", "bak": "backup", "backup": "backup", "orig": "backup",
     "pdf": "document", "doc": "document", "docx": "document", "odt": "document",
     "rtf": "document",
+    "pem": "certificate", "crt": "certificate", "cer": "certificate", "key": "certificate",
+    "p12": "certificate", "graphql": "graphql", "gql": "graphql",
 }
 FILE_STEMS = {
     "Gemfile": "ruby", "Gemfile.lock": "lock", "Rakefile": "rake", "Dockerfile": "docker",
@@ -113,6 +118,9 @@ FILE_STEMS = {
     "README": "readme", "README.md": "readme", "LICENSE": "license", "LICENSE.md": "license",
     "mise.toml": "mise", ".mise.toml": "mise", "mise.local.toml": "mise",
     ".mise.local.toml": "mise", "miserc.toml": "mise", ".miserc.toml": "mise",
+    "CLAUDE.md": "ai", "AGENTS.md": "ai", ".cursorrules": "ai", "copilot-instructions.md": "ai",
+    "database.yml": "database-config", "schema.rb": "database-config",
+    "structure.sql": "database-config", "drizzle.config.ts": "database-config",
 }
 FOLDERS = {                 # collapsed (Lucide), expanded (custom)
     "code": ("folder-code", "custom:folder-code-open"),

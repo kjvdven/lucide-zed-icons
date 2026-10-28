@@ -126,7 +126,15 @@
         "mise.local.toml": "mise",
         ".mise.local.toml": "mise",
         "miserc.toml": "mise",
-        ".miserc.toml": "mise"
+        ".miserc.toml": "mise",
+        "CLAUDE.md": "ai",
+        "AGENTS.md": "ai",
+        ".cursorrules": "ai",
+        "copilot-instructions.md": "ai",
+        "database.yml": "database-config",
+        "schema.rb": "database-config",
+        "structure.sql": "database-config",
+        "drizzle.config.ts": "database-config"
       },
       "file_suffixes": {
         "html": "html",
@@ -201,7 +209,14 @@
         "doc": "document",
         "docx": "document",
         "odt": "document",
-        "rtf": "document"
+        "rtf": "document",
+        "pem": "certificate",
+        "crt": "certificate",
+        "cer": "certificate",
+        "key": "certificate",
+        "p12": "certificate",
+        "graphql": "graphql",
+        "gql": "graphql"
       },
       "file_icons": {
         "javascript": {
@@ -348,6 +363,9 @@
         "go": {
           "path": "./icons/night/go.svg"
         },
+        "graphql": {
+          "path": "./icons/night/graph-hub.svg"
+        },
         "default": {
           "path": "./icons/night/file.svg"
         },
@@ -397,9 +415,6 @@
           "path": "./icons/night/code.svg"
         },
         "gleam": {
-          "path": "./icons/night/code.svg"
-        },
-        "graphql": {
           "path": "./icons/night/code.svg"
         },
         "hcl": {
@@ -535,7 +550,7 @@
           "path": "./icons/night/file-archive.svg"
         },
         "backup": {
-          "path": "./icons/night/archive-restore.svg"
+          "path": "./icons/night/archive-arrow-down.svg"
         },
         "notebook": {
           "path": "./icons/night/notebook-pen.svg"
@@ -557,6 +572,15 @@
         },
         "mise": {
           "path": "./icons/night/chef-hat.svg"
+        },
+        "certificate": {
+          "path": "./icons/night/certificate.svg"
+        },
+        "ai": {
+          "path": "./icons/night/cpu-ai.svg"
+        },
+        "database-config": {
+          "path": "./icons/night/database-cog.svg"
         }
       }
     },
@@ -683,7 +707,15 @@
         "mise.local.toml": "mise",
         ".mise.local.toml": "mise",
         "miserc.toml": "mise",
-        ".miserc.toml": "mise"
+        ".miserc.toml": "mise",
+        "CLAUDE.md": "ai",
+        "AGENTS.md": "ai",
+        ".cursorrules": "ai",
+        "copilot-instructions.md": "ai",
+        "database.yml": "database-config",
+        "schema.rb": "database-config",
+        "structure.sql": "database-config",
+        "drizzle.config.ts": "database-config"
       },
       "file_suffixes": {
         "html": "html",
@@ -758,7 +790,14 @@
         "doc": "document",
         "docx": "document",
         "odt": "document",
-        "rtf": "document"
+        "rtf": "document",
+        "pem": "certificate",
+        "crt": "certificate",
+        "cer": "certificate",
+        "key": "certificate",
+        "p12": "certificate",
+        "graphql": "graphql",
+        "gql": "graphql"
       },
       "file_icons": {
         "javascript": {
@@ -905,6 +944,9 @@
         "go": {
           "path": "./icons/storm/go.svg"
         },
+        "graphql": {
+          "path": "./icons/storm/graph-hub.svg"
+        },
         "default": {
           "path": "./icons/storm/file.svg"
         },
@@ -954,9 +996,6 @@
           "path": "./icons/storm/code.svg"
         },
         "gleam": {
-          "path": "./icons/storm/code.svg"
-        },
-        "graphql": {
           "path": "./icons/storm/code.svg"
         },
         "hcl": {
@@ -1092,7 +1131,7 @@
           "path": "./icons/storm/file-archive.svg"
         },
         "backup": {
-          "path": "./icons/storm/archive-restore.svg"
+          "path": "./icons/storm/archive-arrow-down.svg"
         },
         "notebook": {
           "path": "./icons/storm/notebook-pen.svg"
@@ -1114,6 +1153,15 @@
         },
         "mise": {
           "path": "./icons/storm/chef-hat.svg"
+        },
+        "certificate": {
+          "path": "./icons/storm/certificate.svg"
+        },
+        "ai": {
+          "path": "./icons/storm/cpu-ai.svg"
+        },
+        "database-config": {
+          "path": "./icons/storm/database-cog.svg"
         }
       }
     },
@@ -1240,7 +1288,15 @@
         "mise.local.toml": "mise",
         ".mise.local.toml": "mise",
         "miserc.toml": "mise",
-        ".miserc.toml": "mise"
+        ".miserc.toml": "mise",
+        "CLAUDE.md": "ai",
+        "AGENTS.md": "ai",
+        ".cursorrules": "ai",
+        "copilot-instructions.md": "ai",
+        "database.yml": "database-config",
+        "schema.rb": "database-config",
+        "structure.sql": "database-config",
+        "drizzle.config.ts": "database-config"
       },
       "file_suffixes": {
         "html": "html",
@@ -1315,7 +1371,14 @@
         "doc": "document",
         "docx": "document",
         "odt": "document",
-        "rtf": "document"
+        "rtf": "document",
+        "pem": "certificate",
+        "crt": "certificate",
+        "cer": "certificate",
+        "key": "certificate",
+        "p12": "certificate",
+        "graphql": "graphql",
+        "gql": "graphql"
       },
       "file_icons": {
         "javascript": {
@@ -1462,6 +1525,9 @@
         "go": {
           "path": "./icons/moon/go.svg"
         },
+        "graphql": {
+          "path": "./icons/moon/graph-hub.svg"
+        },
         "default": {
           "path": "./icons/moon/file.svg"
         },
@@ -1511,9 +1577,6 @@
           "path": "./icons/moon/code.svg"
         },
         "gleam": {
-          "path": "./icons/moon/code.svg"
-        },
-        "graphql": {
           "path": "./icons/moon/code.svg"
         },
         "hcl": {
@@ -1649,7 +1712,7 @@
           "path": "./icons/moon/file-archive.svg"
         },
         "backup": {
-          "path": "./icons/moon/archive-restore.svg"
+          "path": "./icons/moon/archive-arrow-down.svg"
         },
         "notebook": {
           "path": "./icons/moon/notebook-pen.svg"
@@ -1671,6 +1734,15 @@
         },
         "mise": {
           "path": "./icons/moon/chef-hat.svg"
+        },
+        "certificate": {
+          "path": "./icons/moon/certificate.svg"
+        },
+        "ai": {
+          "path": "./icons/moon/cpu-ai.svg"
+        },
+        "database-config": {
+          "path": "./icons/moon/database-cog.svg"
         }
       }
     },
@@ -1797,7 +1869,15 @@
         "mise.local.toml": "mise",
         ".mise.local.toml": "mise",
         "miserc.toml": "mise",
-        ".miserc.toml": "mise"
+        ".miserc.toml": "mise",
+        "CLAUDE.md": "ai",
+        "AGENTS.md": "ai",
+        ".cursorrules": "ai",
+        "copilot-instructions.md": "ai",
+        "database.yml": "database-config",
+        "schema.rb": "database-config",
+        "structure.sql": "database-config",
+        "drizzle.config.ts": "database-config"
       },
       "file_suffixes": {
         "html": "html",
@@ -1872,7 +1952,14 @@
         "doc": "document",
         "docx": "document",
         "odt": "document",
-        "rtf": "document"
+        "rtf": "document",
+        "pem": "certificate",
+        "crt": "certificate",
+        "cer": "certificate",
+        "key": "certificate",
+        "p12": "certificate",
+        "graphql": "graphql",
+        "gql": "graphql"
       },
       "file_icons": {
         "javascript": {
@@ -2019,6 +2106,9 @@
         "go": {
           "path": "./icons/light/go.svg"
         },
+        "graphql": {
+          "path": "./icons/light/graph-hub.svg"
+        },
         "default": {
           "path": "./icons/light/file.svg"
         },
@@ -2068,9 +2158,6 @@
           "path": "./icons/light/code.svg"
         },
         "gleam": {
-          "path": "./icons/light/code.svg"
-        },
-        "graphql": {
           "path": "./icons/light/code.svg"
         },
         "hcl": {
@@ -2206,7 +2293,7 @@
           "path": "./icons/light/file-archive.svg"
         },
         "backup": {
-          "path": "./icons/light/archive-restore.svg"
+          "path": "./icons/light/archive-arrow-down.svg"
         },
         "notebook": {
           "path": "./icons/light/notebook-pen.svg"
@@ -2228,6 +2315,15 @@
         },
         "mise": {
           "path": "./icons/light/chef-hat.svg"
+        },
+        "certificate": {
+          "path": "./icons/light/certificate.svg"
+        },
+        "ai": {
+          "path": "./icons/light/cpu-ai.svg"
+        },
+        "database-config": {
+          "path": "./icons/light/database-cog.svg"
         }
       }
     }
